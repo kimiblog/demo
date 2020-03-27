@@ -44,7 +44,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-consul-discovery</artifactId>
@@ -53,6 +52,22 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-consul-config</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <!--   <dependency>
+                 <groupId>org.springframework.security</groupId>
+                 <artifactId>spring-security-web</artifactId>
+                 <version>4.1.0.RELEASE</version>
+             </dependency>
+             <dependency>
+                 <groupId>org.springframework.security</groupId>
+                 <artifactId>spring-security-config</artifactId>
+                 <version>4.1.0.RELEASE</version>
+             </dependency> -->
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
